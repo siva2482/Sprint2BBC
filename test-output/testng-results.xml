@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T12:14:41 CST" name="Default suite" finished-at="2023-01-09T12:14:43 CST" duration-ms="2471">
+  <suite started-at="2023-01-16T08:03:40 CST" name="Suite" finished-at="2023-01-16T08:03:44 CST" duration-ms="3225">
     <groups>
     </groups>
-    <test started-at="2023-01-09T12:14:41 CST" name="Default test" finished-at="2023-01-09T12:14:43 CST" duration-ms="2471">
+    <test started-at="2023-01-16T08:03:40 CST" name="Test" finished-at="2023-01-16T08:03:44 CST" duration-ms="3225">
       <class name="Test.HomeTest">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:Test.HomeTest@2d3379b4]" started-at="2023-01-09T12:14:37 CST" name="Beforesuite" finished-at="2023-01-09T12:14:41 CST" duration-ms="4269" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:Test.HomeTest@5136d012]" started-at="2023-01-16T08:03:35 CST" name="Beforesuite" finished-at="2023-01-16T08:03:40 CST" duration-ms="5547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test.HomeTest@2d3379b4]" started-at="2023-01-09T12:14:41 CST" name="beforetest" finished-at="2023-01-09T12:14:41 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test.HomeTest@5136d012]" started-at="2023-01-16T08:03:40 CST" name="beforetest" finished-at="2023-01-16T08:03:40 CST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method signature="run()[pri:0, instance:Test.HomeTest@2d3379b4]" started-at="2023-01-09T12:14:41 CST" name="run" finished-at="2023-01-09T12:14:42 CST" duration-ms="1534" status="PASS">
+        <test-method signature="run()[pri:0, instance:Test.HomeTest@5136d012]" started-at="2023-01-16T08:03:41 CST" name="run" finished-at="2023-01-16T08:03:43 CST" duration-ms="2403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:Test.HomeTest@2d3379b4]" started-at="2023-01-09T12:14:42 CST" name="getScreenshot" finished-at="2023-01-09T12:14:43 CST" duration-ms="684" status="PASS">
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:Test.HomeTest@5136d012]" started-at="2023-01-16T08:03:43 CST" name="getScreenshot" finished-at="2023-01-16T08:03:43 CST" duration-ms="546" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=run status=SUCCESS method=HomeTest.run()[pri:0, instance:Test.HomeTest@2d3379b4] output={null}]]]>
+                <![CDATA[[TestResult name=run status=SUCCESS method=HomeTest.run()[pri:0, instance:Test.HomeTest@5136d012] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getScreenshot -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:Test.HomeTest@2d3379b4]" started-at="2023-01-09T12:14:43 CST" name="generateReport" finished-at="2023-01-09T12:14:43 CST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:Test.HomeTest@5136d012]" started-at="2023-01-16T08:03:43 CST" name="generateReport" finished-at="2023-01-16T08:03:44 CST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- Test.HomeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

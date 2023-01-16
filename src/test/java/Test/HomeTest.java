@@ -1,5 +1,7 @@
 package Test;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,12 +16,14 @@ public class HomeTest extends TestBase {
 	HomePage obj=new HomePage(driver);
 	
 	@Test
-	public void run()
-	{
-		Assert.assertEquals("https://www.bbc.com/",obj.getURl());
-		System.out.println(obj.getURl());
-		obj.fetchLinks();
-		//obj.fetchtopics("News");
-		obj.corresponding_link();
-	}
+	public void run() throws IOException
+	
+		{
+			Assert.assertEquals("https://www.bbc.com/",obj.getURl());
+			System.out.println(obj.getURl());
+			HomePage.fetchLinks();
+			//obj.fetchtopics("News");
+			obj.corresponding_link();
+		}
+	
 }
